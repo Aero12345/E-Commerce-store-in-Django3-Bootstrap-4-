@@ -60,6 +60,7 @@ def brand_product_list(request,brand_id):
 			})
 
 # Product Detail
+@login_required
 def product_detail(request,slug,id):
 	product=Product.objects.get(id=id)
 	related_products=Product.objects.filter(category=product.category).exclude(id=id)[:4]

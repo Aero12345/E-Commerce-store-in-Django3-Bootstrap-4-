@@ -27,8 +27,9 @@ SECRET_KEY = 'django-insecure-vckdi%k&i-+$46wz0-szw-h#i9!6pa1!ns6x*p^av+=t_3#^=2
 DEBUG = True
 
 ALLOWED_HOSTS = [
-     'fvcollection.herokuapp.com',
-    'peaceful-wildwood-00116.herokuapp.com',
+        '127.0.0.1',
+        'fvcollection.herokuapp.com',
+        'peaceful-wildwood-00116.herokuapp.com',
 ]
 
 
